@@ -22,7 +22,7 @@ func Green(text string) string {
 	return result
 }
 
-func Magenta(text string) string {
+func Purple(text string) string {
 	result := "\u001b[35m" + text + defalt
 	return result
 }
