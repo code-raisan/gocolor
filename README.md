@@ -4,8 +4,10 @@ Goでコンソールに出力する文字色を変えれます。
 
 # How to use
 
-1. Install
+## Install
 
 ```bash
-go install 
+go get github.com/code-raisan/gocolor@latest
 ```
+
+## 

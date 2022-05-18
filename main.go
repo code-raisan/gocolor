@@ -1,4 +1,4 @@
-package main
+package gocolor
 
 var defalt string = "\u001b[0m"
 
