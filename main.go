@@ -2,6 +2,10 @@ package main
 
 var defalt string = "\u001b[0m"
 
+func main() {
+	print("hello")
+}
+
 func Red(text string) string {
 	result := "\u001b[31m" + text + defalt
 	return result
