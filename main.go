@@ -2,6 +2,11 @@ package gocolor
 
 var defalt string = "\u001b[0m"
 
+func Defalt(text string) string {
+	result := "\u001b[0m" + text
+	return result
+}
+
 func Red(text string) string {
 	result := "\u001b[31m" + text + defalt
 	return result
