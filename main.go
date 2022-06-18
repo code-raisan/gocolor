@@ -2,7 +2,12 @@ package gocolor
 
 var defalt string = "\u001b[0m"
 
+// Deprecated: Use Default
 func Defalt(text string) string {
+	return Default(text)
+}
+
+func Default(text string) string {
 	result := "\u001b[0m" + text
 	return result
 }
