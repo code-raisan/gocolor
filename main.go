@@ -37,7 +37,12 @@ func Purple(text string) string {
 	return result
 }
 
+// Deprecated: Use Cyan
 func Cayn(text string) string {
+	return Cyan(text)
+}
+
+func Cyan(text string) string {
 	result := "\u001b[36m" + text + defalt
 	return result
 }
