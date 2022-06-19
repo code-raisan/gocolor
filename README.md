@@ -12,6 +12,10 @@ go get github.com/code-raisan/gocolor@latest
 
 ## Sample
 
+`gocolor.Default()` を使用すると通常の文字色に戻すことができます
+
+### 色文字の出力例
+
 ```go
 package main
 
