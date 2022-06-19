@@ -32,8 +32,8 @@ func main() {
     // Out put is green
     println(gocolor.Green("gocolor.Green()"))
 	
-    // Out put is magenta
-    println(gocolor.Purple("gocolor.Magenta()"))
+    // Out put is purple(magenta)
+    println(gocolor.Purple("gocolor.Purple()"))
 	
     // Out put is cyan
     println(gocolor.Cyan("gocolor.Cyan()"))
