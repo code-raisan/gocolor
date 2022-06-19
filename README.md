@@ -2,6 +2,8 @@
 
 Goでコンソールに出力する文字色を変えれます。
 
+Change the color of characters output to the console with Go.
+
 # How to use
 
 ## Install
