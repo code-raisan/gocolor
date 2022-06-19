@@ -1,48 +1,39 @@
 package gocolor
 
-var defalt string = "\u001b[0m"
+var _default string = "\x1b[0m"
 
-func Defalt(text string) string {
-	result := "\u001b[0m" + text
-	return result
+func Default(text string) string {
+	return "\x1b[0m" + text
 }
 
 func Red(text string) string {
-	result := "\u001b[31m" + text + defalt
-	return result
+	return "\x1b[31m" + text + _default
 }
 
 func Blue(text string) string {
-	result := "\u001b[34m" + text + defalt
-	return result
+	return "\x1b[34m" + text + _default
 }
 
 func Yellow(text string) string {
-	result := "\u001b[33m" + text + defalt
-	return result
+	return "\x1b[33m" + text + _default
 }
 
 func Green(text string) string {
-	result := "\u001b[32m" + text + defalt
-	return result
+	return "\x1b[32m" + text + _default
 }
 
 func Purple(text string) string {
-	result := "\u001b[35m" + text + defalt
-	return result
+	return "\x1b[35m" + text + _default
 }
 
-func Cayn(text string) string {
-	result := "\u001b[36m" + text + defalt
-	return result
+func Cyan(text string) string {
+	return "\x1b[36m" + text + _default
 }
 
 func White(text string) string {
-	result := "\u001b[37m" + text + defalt
-	return result
+	return "\x1b[37m" + text + _default
 }
 
 func Black(text string) string {
-	result := "\u001b[30m" + text + defalt
-	return result
+	return "\x1b[30m" + text + _default
 }
