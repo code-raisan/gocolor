@@ -1,6 +1,6 @@
 # gocolor
 
-![](https://img.shields.io/github/stars/code-raisan/gocolor?style=flat-square&logo=appveyor)
+![](https://img.shields.io/github/stars/code-raisan/gocolor?style=flat-square)
 
 Goでコンソールに出力する文字色を変えれます。
 
